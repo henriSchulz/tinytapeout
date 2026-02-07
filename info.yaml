@@ -1,10 +1,10 @@
 # Tiny Tapeout project information (Wokwi project)
 project:
-  wokwi_id:     455292968276021249       # Set this to the ID of your Wokwi project (the number from the project's URL)
-  title:        "4 bit ripple carry adder"      # Project title
+  wokwi_id:     455304103432904705       # Set this to the ID of your Wokwi project (the number from the project's URL)
+  title:        "Test proj."      # Project title
   author:       "Henri Schulz"      # Your name
   discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
-  description:  "Adds two 4 bit numbers"      # One line description of what your project does
+  description:  ""      # One line description of what your project does
   language:     "Wokwi" # other examples include SystemVerilog, Amaranth, VHDL, etc
   clock_hz:     1000       # Clock frequency in Hz (or 0 if not applicable)
 
@@ -31,9 +31,9 @@ pinout:
   uo[2]: "Bit S3"
   uo[3]: "Bit S3"
   uo[4]: "Bit Carry Out"
-  uo[5]: ""
-  uo[6]: ""
-  uo[7]: ""
+  uo[5]: "Aasdsa"
+  uo[6]: "Aasd"
+  uo[7]: "as"
 
   # Bidirectional pins
   uio[0]: ""
