@@ -1,10 +1,10 @@
 # Tiny Tapeout project information (Wokwi project)
 project:
   wokwi_id:     455292968276021249       # Set this to the ID of your Wokwi project (the number from the project's URL)
-  title:        "One bits half-adder"      # Project title
+  title:        "4 bit ripple carry adder"      # Project title
   author:       "Henri Schulz"      # Your name
   discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
-  description:  "Adds in0 and in4. write sum t out0 and carry to out1"      # One line description of what your project does
+  description:  "Adds two 4 bit numbers"      # One line description of what your project does
   language:     "Wokwi" # other examples include SystemVerilog, Amaranth, VHDL, etc
   clock_hz:     1000       # Clock frequency in Hz (or 0 if not applicable)
 
@@ -16,21 +16,21 @@ project:
 # This section is for the datasheet/website. Use descriptive names (e.g., RX, TX, MOSI, SCL, SEG_A, etc.).
 pinout:
   # Inputs
-  ui[0]: "Bit A"
-  ui[1]: ""
-  ui[2]: ""
-  ui[3]: ""
-  ui[4]: "Bit B"
-  ui[5]: ""
-  ui[6]: ""
-  ui[7]: ""
+  ui[0]: "Bit A1"
+  ui[1]: "Bit A2"
+  ui[2]: "Bit A3"
+  ui[3]: "Bit A4"
+  ui[4]: "Bit B1"
+  ui[5]: "Bit B2"
+  ui[6]: "Bit B3"
+  ui[7]: "BIt B4"
 
   # Outputs
-  uo[0]: "Sum Bit"
-  uo[1]: "Carry Bit"
-  uo[2]: ""
-  uo[3]: ""
-  uo[4]: ""
+  uo[0]: "Bit S1"
+  uo[1]: "Bit S2"
+  uo[2]: "Bit S3"
+  uo[3]: "Bit S3"
+  uo[4]: "Bit Carry Out"
   uo[5]: ""
   uo[6]: ""
   uo[7]: ""
